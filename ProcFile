@@ -1,1 +1,0 @@
-web: odoo-bin --config=/etc/odoo/odoo.conf
