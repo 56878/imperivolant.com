@@ -1,3 +1,5 @@
 [build]
-provider = "nixpacks"
-web: odoo-bin --config=/etc/odoo/odoo.conf
+deploy:provider = "nixpacks"
+
+[run]
+web= "odoo-bin --config=/etc/odoo/odoo.conf"
