@@ -2,4 +2,4 @@
 provider = "nixpacks"
 
 [run]
-web = "odoo-bin --config=/etc/odoo/odoo.conf"
+web = "python3 odoo-bin --config=/etc/odoo/odoo.conf"
